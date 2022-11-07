@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to left, #2bc0e4, #eaecc6); 
+  color: #707070;
+  margin: 0;
+  padding: 0;
+}
+
+.App .search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.App input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
